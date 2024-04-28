@@ -103,7 +103,7 @@ form{
 
 @media screen and (max-width: 768px){
     .search-results{
-        padding: 100px;
+        padding: 20px;
     }
     .search-result {
        width: 100%; 
@@ -111,6 +111,6 @@ form{
 }
 @media screen and (max-width: 480px){
     .search-result {
-       width: 100%;
+       width: 45%;
     }
 }
