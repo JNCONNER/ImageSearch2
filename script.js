@@ -38,7 +38,7 @@ async function searchImages() {
     if (page === 1){
         searchResults.innerHTML = "";
     }
-    //to display images one at a time need to map resultsv ariable. have to push all the data inside the search results template from html. everytime a new image is searched have to generate new boxes for new images and for those images gonna use pre built templates created in html. use const to create a container to hold the images. use const imageWrapper to create the div using document.createElement. then push the class name of search result into the created div by using imageWrapper.classlist.add to add the class name of search result. then inside of search result in html there is an image element. so use const to create another variable. so use const image = document.createElement('img')
+    //to display images one at a time need to map results variable. have to push all the data inside the search results template from html. everytime a new image is searched have to generate new boxes for new images and for those images gonna use pre built templates created in html. use const to create a container to hold the images. use const imageWrapper to create the div using document.createElement. then push the class name of search result into the created div by using imageWrapper.classlist.add to add the class name of search result. then inside of search result in html there is an image element. so use const to create another variable. so use const image = document.createElement('img')
     //below will attach itself to the search-result div
     results.map((result) => {
        const imageWrapper = document.createElement("div");
